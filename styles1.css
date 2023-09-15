@@ -8,6 +8,7 @@
 }
 
 body {
+    width: 100%;
     color: #4477CE;
   
 }  
@@ -23,25 +24,6 @@ body {
         transform: translateX( -200px);   
     }
     }
- .navbar{
-
-    width: 80rem;
-    margin-right: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin-top: 6rem;
-}
-.navbar a {
-    color: #512B81;
-    margin: 7px;
-    text-decoration: none;
-    padding: 30px;
-    background-color: #ececec;
-    border-radius: 4px;
-    transition: all 0.4s ease ; 
- font-size: 3rem;
-}
 .navbar a:hover {
    
 background-color: #9500ff;
@@ -50,6 +32,7 @@ background-color: #9500ff;
     background-image: url(payaso.jpg);
  }
 .text-principle{
+    width: 100%;
   margin-top: 2rem;
   margin-left: 2rem;
   display: flex;
@@ -58,23 +41,29 @@ background-color: #9500ff;
 
 }
 .text-principle h2 {
+    width: 100%;
     font-size: 4rem;
     width: 13rem;
    
 }
+.sectio_1  {
+    width: 100%;
+}
 .text-principle h1 {
+
     font-size: 53px;
     width: 20rem;
     animation: Ringth 5s ease forwards infinite;
 }
 
 .parrafo {
+    width: 100%;
     font-size: 2.5rem;
     width: 30rem;
     animation: Ringth 5s ease forwards infinite;
 }
 
-.photo img {
+.photo img {;
     width: 4rem;
     height: 20rem;
     margin: 2rem;
@@ -378,11 +367,7 @@ background-color: #0b0017;
     border: 4px solid #ffffff;
 }
 @media screen  and (min-width: 1280px) {
-    .navbar  {
-     width: 70rem;
-    margin-left: 11rem;
-    font-size: 1.3rem;
-    }
+
     .photo {
         margin-left: 9rem;
     }
@@ -460,8 +445,17 @@ background-color: #0b0017;
         align-items: center;
     }
     .services-container .services-box{
-        padding: 7rem 10rem 7rem ;
+        padding: 7rem 0rem 1rem ;
         margin-left: 12rem;
+    }
+    .services-box h3 {
+        font-size: 4rem;
+    }
+    .services-box p {
+        font-size: 2rem;
+    } 
+    .services-box .btn  {
+        font-size: 3rem;
     }
     .services-box i {
         font-size: 10rem;
