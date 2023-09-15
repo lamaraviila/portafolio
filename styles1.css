@@ -13,10 +13,10 @@ body {
 }  
 
 .portafolio{
-    width: 36rem;
+    width: 66rem;
     display: block;    
     animation: Ringth 5s ease forwards infinite;
-    font-size: 2rem;
+    font-size: 4.3rem;
 }
 @keyframes  Ringth {
     0% {
@@ -24,22 +24,23 @@ body {
     }
     }
  .navbar{
-    width: 67rem;
+
+    width: 80rem;
     margin-right: 1rem;
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 .navbar a {
     color: #512B81;
     margin: 7px;
     text-decoration: none;
-    padding: 11px;
+    padding: 30px;
     background-color: #ececec;
     border-radius: 4px;
     transition: all 0.4s ease ; 
- 
+ font-size: 3rem;
 }
 .navbar a:hover {
    
@@ -57,27 +58,27 @@ background-color: #9500ff;
 
 }
 .text-principle h2 {
-    font-size: 2rem;
+    font-size: 4rem;
     width: 13rem;
    
 }
 .text-principle h1 {
-    font-size: 25px;
+    font-size: 53px;
     width: 20rem;
     animation: Ringth 5s ease forwards infinite;
 }
 
 .parrafo {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     width: 30rem;
     animation: Ringth 5s ease forwards infinite;
 }
 
 .photo img {
-    width: 14rem;
+    width: 4rem;
     height: 20rem;
-  margin: 2rem;
-  margin-left: 6rem;
+    margin: 2rem;
+    margin-left: 6rem;
     border-radius: 6rem;
     border: 10px  double #bf00ff;
     transition: 0.3s;
@@ -424,4 +425,56 @@ background-color: #0b0017;
 }
 .project .project_1{
     height: 13rem;
+}
+@media screen  and (min-width: 480px){
+    .portafolio {
+        font-size: 3.2rem;
+        width: 23rem;
+        margin-top: 7rem;
+    }
+    .navbar{
+        margin-right: 10rem;
+    }
+    .navbar a{
+       
+        padding: 0%;
+        width: 13rem;
+    }
+    .photo {
+        margin-left: 3rem;
+    }
+    .photo img {
+        width: 27rem;
+       height: 38rem;
+       border-radius: 13rem;
+       flex-wrap: wrap;
+    }
+    .logotipos {
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+    }
+    .logotipos  i{
+        font-size: 3rem;
+        margin: 2rem;
+    }
+    .download-cv a{
+        font-size: 2.5rem;
+        margin: 3rem;
+        width: 26rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+    }
+    .services-container .services-box{
+        padding: 7rem 10rem 7rem ;
+        margin-left: 3rem;
+    }
+    .services-box i {
+        font-size: 10rem;
+    } 
+    .services-container {
+        flex-wrap: wrap;
+    }
+    
 }
