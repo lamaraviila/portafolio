@@ -428,24 +428,17 @@ background-color: #0b0017;
 }
 @media screen  and (min-width: 480px){
     .portafolio {
-        font-size: 3.2rem;
-        width: 23rem;
-        margin-top: 7rem;
-    }
-    .navbar{
-        margin-right: 10rem;
+        font-size: 4.3rem;
     }
     .navbar a{
-       
-        padding: 0%;
-        width: 13rem;
+    display: flex;
     }
     .photo {
-        margin-left: 3rem;
+        margin-left: 8rem;
     }
     .photo img {
-        width: 27rem;
-       height: 38rem;
+        width: 32rem;
+       height: 48rem;
        border-radius: 13rem;
        flex-wrap: wrap;
     }
@@ -455,11 +448,11 @@ background-color: #0b0017;
         margin-top: 7rem;
     }
     .logotipos  i{
-        font-size: 3rem;
+        font-size: 7rem;
         margin: 2rem;
     }
     .download-cv a{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         margin: 3rem;
         width: 26rem;
         height: 6rem;
@@ -468,7 +461,7 @@ background-color: #0b0017;
     }
     .services-container .services-box{
         padding: 7rem 10rem 7rem ;
-        margin-left: 3rem;
+        margin-left: 12rem;
     }
     .services-box i {
         font-size: 10rem;
